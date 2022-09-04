@@ -1,0 +1,26 @@
+.main-integration {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.integration {
+    display: flex;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.integration .text {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.integration .text h3 {
+    margin-bottom: 20px;
+}
+
+.integration .text p {
+    margin-bottom: 20px;
+}

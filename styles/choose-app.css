@@ -1,0 +1,43 @@
+.choose-app {
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 50px;
+}
+
+.choose-app h3 {
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choose-app p {
+    margin-top: 29px;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services {
+    display: flex;
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.grid {
+    max-width: 310px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 15px 55px 15px;
+}
+
+.grid h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--primary-navy-color);
+}

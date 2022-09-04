@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+	padding: 0;
+}
+
+body {
+
+
+}
+
+p {
+
+}
+
+.button {
+    width: 170px;
+    height: 55px;
+   /* margin-left: 229px;
+    margin-top: 516px; */
+    border-radius: 26px;
+    border: none;
+    color: white;
+    background-color: var( --primary-blue-color);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--base-font);
+    cursor: pointer;
+}
+
+h1 {
+    font-family: var(--base-font);
+    font-size: var(--main-heading-h1);
+    color: var(--primary-navy-color);
+    font-weight: var(--heading-font-weight);
+}
+
+h3 {
+    font-family: var(--base-font);
+    font-size: var(--heading-h3);
+    color: var(--primary-navy-color);
+    font-weight: var(--heading-font-weight);
+    line-height: 3rem;
+}
+
+h4 {
+    font-family: var(--base-font);
+    font-size: var(--heading-h4);
+    font-weight: var(--heading-font-weight);
+}
+
+p {
+    font-family: var(--base-font);
+    font-size: var(--paragraph-p);
+    color: var(--primary-gray-color);
+    font-weight: var(--paragraph-font-weight);
+}
+
+span {
+    font-family: var(--base-font);
+    font-size: var(--paragraph-p);
+    color: var(--primary-gray-color);
+    font-weight: var(--paragraph-font-weight);
+}

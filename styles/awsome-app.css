@@ -1,0 +1,58 @@
+.awsome-app {
+    max-width: 1415px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 52px;
+    padding-bottom: 52px;
+}
+
+.feature {
+    margin-left: 26px;
+    margin-top: 45px;
+    width: 32%;
+}
+
+.feature p {
+    margin-top: 12px;
+}
+
+.performance {
+    display: flex;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.performance h4 {
+    color: var(--secondary-pink-color);
+}
+
+.performance img {
+    margin-top: 16px;
+}
+
+.performacne-text {
+    margin-left: 30px;
+    margin-right: 10%;
+}
+
+.prototype {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.prototype h4 {
+    color: var(--secondary-blue-color);
+}
+
+.vector {
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.vector h4 {
+    color: var(--secondary-green-color);
+}
+

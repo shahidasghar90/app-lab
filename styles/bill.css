@@ -1,0 +1,133 @@
+.bill-text {
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 106px;
+    padding-bottom: 50px;
+}
+
+.bill-text h3 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bill-text p {
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+}
+
+.toggle-button {
+    display: flex;
+    border: 1px solid gray;
+    align-items: center;
+    width: 278px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.small-size-btn {
+    width: 133px;
+    height: 45px;
+    margin-left: 4px;
+}
+
+.toggle-button p {
+    margin-right: 34px;
+}
+
+.packege {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1030px;
+    margin-top: 40px;
+    justify-content: center;
+    padding-bottom: 105px;
+}
+
+.packege-1 {
+    width: 316px;
+    height: 554px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    overflow: hidden;
+}
+
+.packege-1 p {
+    line-height: 48px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.packege-1 button {
+    width: 210px;
+}
+
+.packege-1 .packege-box {
+    background-image: linear-gradient(to right top, #f4f7f9, #f7f9fb, #fafbfc, #fdfdfe, #ffffff);
+    padding-top: 52px;
+    padding-bottom: 36px;
+}
+
+.packege-1 .heading-text {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: center;
+}
+
+.packege-2 {
+    border: 1px solid #ebebeb;
+    width: 310px;
+    height: 600px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.packege-2 .packege-box {
+    background-image: linear-gradient(to right top, #f4f7f9, #f6f8fa, #f9fafc, #fbfbfd, #fdfdfe);
+    padding-top: 52px;
+    padding-bottom: 36px;
+}
+
+.packege-2 .heading-text {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: center;
+}
+
+.packege-2 p {
+    line-height: 48px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.packege-2 button {
+    width: 210px;
+}
+
+.packege-2 .trail {
+    margin-top: 30px;
+}
+
+.packege-2 .trail a {
+    font-size: 16px;
+    font-family: var(--base-font);
+    text-decoration: none;
+    font-weight: 400;
+}

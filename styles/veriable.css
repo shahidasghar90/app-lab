@@ -1,0 +1,28 @@
+:root {
+    --main-bg-color: #ffffff;
+    --primary-blue-color: #2500f9;
+    --primary-gray-color: #616368;
+    --primary-navy-color: #242f51;
+    --secondary-pink-color: #f55767;
+    --secondary-blue-color: #2563ff;
+    --secondary-green-color: #40975f;
+
+
+    --query-xl: 1400px;
+    --query-lg: 1200px;
+    --query-md: 992px;
+    --query-sm: 768px;
+    --query-xs: 576px;
+
+    --container-lg: 1300px; 
+    --container-md: 800px;
+    --container-lg: 600px;  
+
+    --base-font: "Poppins", Arial, Helvetica, sans-serif;; 
+    --main-heading-h1: 60px;
+    --heading-font-weight: 600;
+    --heading-h3: 36px;
+    --heading-h4: 20px;
+    --paragraph-p: 16px;
+    --paragraph-font-weight: 400;
+}

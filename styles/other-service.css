@@ -1,0 +1,56 @@
+.ultimate-features {
+    background-image: url("/assets/images/Phone\ copy\ 4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.other-service {
+    display: flex;
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+
+}
+
+.other-service .img {
+    height: 100%;
+    padding-top: 130px;
+}
+
+.built-service {
+    padding-top: 94px;
+}
+
+.built-service h3 {
+    width: 55%;
+}
+
+.built-service .p {
+    width: 65%;
+    margin-top: 12px;
+}
+
+.built-service .built-service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.built-service .web-design {
+    max-width: 300px;
+    width: 100%;
+    padding: 28px 0;
+    margin-right: 46px;
+}
+
+.web-design h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}

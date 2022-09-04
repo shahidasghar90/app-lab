@@ -1,0 +1,85 @@
+.download-app {
+    border-top: 1px solid #f4f4f4;
+    position: relative;
+}
+
+.download-app .img {
+    display: block;
+    margin-left: auto;
+}
+
+.download-text {
+    position: absolute;
+    top: 17%;
+    right: 46%;
+    left: 14%;
+}
+
+.download-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.download-text .bedge1 {
+    display: flex;
+    margin-top: 48px;
+    width: 66%;
+    justify-content: space-around;
+}
+
+
+.footer {
+    background-color: var(--primary-navy-color);
+    margin-top: -44px;
+    text-align: center;
+    padding-top: 115px;
+}
+
+.f-bar {
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.f-bar ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+.f-bar ul li {
+    margin: 0px 18px;
+}
+
+.f-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: var(--base-font);
+    font-weight: var(--paragraph-font-weight);
+
+}
+
+.img-icon {
+    margin-top: 44px;
+    font-size: 40px;
+    margin-bottom: 44px;
+}
+
+.img-icon .icon-color {
+    color: #424c61;
+}
+
+.img-icon .icon-white {
+    color: #ffffff;
+}
+
+.copyright {
+    margin-top: 74px;
+    padding-bottom: 130px;
+}
+
+.copyright span {
+    font-size: 14px;
+}
