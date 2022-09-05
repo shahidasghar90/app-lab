@@ -37,7 +37,7 @@
 .small-size-btn {
     width: 133px;
     height: 45px;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .toggle-button p {
@@ -131,3 +131,29 @@
     text-decoration: none;
     font-weight: 400;
 }
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    .bill-text {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bill-text {
+        padding-bottom: 0;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  }

@@ -66,3 +66,44 @@
     font-weight: 800;
 }
 
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .faq {
+        padding-top: 62px;
+    }
+    .faq-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .faq-text p {
+        font-size: 12px;
+    }
+    .faq-text h4 {
+        font-size: 14px;
+    }
+    .other-faq-text h4 {
+        font-size: 14px;
+    }
+
+    .faq h3 {
+        font-size: 30px;
+    }
+  }

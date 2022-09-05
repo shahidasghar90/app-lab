@@ -1,18 +1,18 @@
 .download-app {
     border-top: 1px solid #f4f4f4;
-    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .download-app .img {
     display: block;
     margin-left: auto;
+    width: 50%;
 }
 
 .download-text {
-    position: absolute;
-    top: 17%;
-    right: 46%;
-    left: 14%;
+    margin-left: 11%;
 }
 
 .download-text h1 {
@@ -30,9 +30,8 @@
 
 .footer {
     background-color: var(--primary-navy-color);
-    margin-top: -44px;
     text-align: center;
-    padding-top: 115px;
+    padding-top: 50px;
 }
 
 .f-bar {
@@ -63,23 +62,69 @@
 
 .img-icon {
     margin-top: 44px;
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 44px;
 }
 
 .img-icon .icon-color {
     color: #424c61;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .img-icon .icon-white {
     color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .copyright {
-    margin-top: 74px;
-    padding-bottom: 130px;
+    margin-top: 44px;
+    padding-bottom: 50px;
 }
 
 .copyright span {
     font-size: 14px;
 }
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .download-app {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .download-text {
+        margin-left: 0;
+    }
+    .download-text .bedge1 {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .download-app {
+        display: block;
+    }
+    .download-app .img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .download-text h1 {
+        font-size: 36px;
+    }
+    .f-bar ul {
+        display: block;
+    }
+  }

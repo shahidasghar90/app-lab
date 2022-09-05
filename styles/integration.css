@@ -11,6 +11,11 @@
     padding-bottom: 80px;
 }
 
+.integration img {
+    display: block;
+    width: 50%;
+}
+
 .integration .text {
     width: 30%;
     margin-left: auto;
@@ -24,3 +29,40 @@
 .integration .text p {
     margin-bottom: 20px;
 }
+
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    .integration .text {
+        width: 46%;
+    }
+    .integration {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .integration {
+        display: block;
+    }
+    .integration img {
+        width: 100%;
+    }
+    .integration .text {
+        width: 100%;
+    }
+  }

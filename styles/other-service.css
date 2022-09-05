@@ -11,8 +11,6 @@
     max-width: 1030px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 60px;
-
 }
 
 .other-service .img {
@@ -54,3 +52,49 @@
     margin-top: 20px;
     margin-bottom: 15px;
 }
+
+
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .ultimate-features {
+        background-image: none;
+    }
+    .built-service {
+        padding-top: 0;
+    }
+    .other-service {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .built-service  {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .built-service .built-service-grid {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .built-service .web-design {
+        max-width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .built-service .web-design {
+        max-width: 100%;
+        margin-right: 0;
+    }
+  }

@@ -9,8 +9,19 @@
 }
 
 .jackpot .text {
-    border-left: 3px solid #b9b9b8;
+    /*border-left: 3px solid #b9b9b8;*/
     padding: 30px 0 30px 55px;
+    position: relative;
+}
+
+.jackpot .text::before {
+    content: "";
+    background: #b9b9b8;
+    position: absolute;
+    height: 149px;
+    width: 1px;
+    left: 0;
+    top: 0;
 }
 
 .bill-network-bedge {
@@ -18,13 +29,16 @@
     max-width: 1030px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .bill {
     padding-left: 15px;
-    padding-right: 30px;   
+    padding-right: 30px; 
+    width: 28%;  
 }
 
 .bill h4 {
@@ -36,6 +50,7 @@
 .network {
     padding-left: 15px;
     padding-right: 30px;
+    width: 28%;
 }
 
 .network h4 {
@@ -47,6 +62,7 @@
 .bedge {
     padding-left: 15px;
     padding-right: 30px;
+    width: 28%;
 }
 
 .bedge h4 {
@@ -54,3 +70,86 @@
     margin-bottom: 8px;
     color: var(--secondary-green-color);
 }
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .jackpot {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .jackpot h3 {
+        font-size: 24px;
+        line-height: 2rem;
+        padding-right: 10px;
+    }
+    .jackpot .text {
+        padding: 20px 0 20px 20px;
+    }
+    .jackpot .text::before {
+        height: 110px;
+    }
+    .bill-network-bedge {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bill {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .network {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .bedge {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .jackpot {
+        display: block;
+        text-align: center;
+    }
+    .jackpot h3 {
+        padding-right: 0;
+    }
+    .jackpot .text {
+        padding: 20px 20px 20px 20px;
+    }
+    .jackpot .text::before {
+        display: none;
+    }
+    .jackpot p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .bill {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .network {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bedge {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+  }

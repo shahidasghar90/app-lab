@@ -1,12 +1,17 @@
 .testimonial-background {
     display: flex;
-    padding-top: 143px;
-    padding-bottom: 143px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-top: 1px solid #f4f4f4;
 }
 
+.testimonial-background .main-img {
+    display: block;
+    width: 50%;
+}
+
 .testimonial-box {
-    position: absolute;
     left: 50%;
     margin-right: 226px;
 }
@@ -16,8 +21,8 @@
 }
 
 .rating {
-    margin-top: 36px;
-    margin-bottom: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .testimonial-box h4 {
@@ -32,7 +37,7 @@
 .img-name {
     display: flex;
     align-items: center;
-    margin-top: 62px;
+    margin-top: 30px;
 }
 
 .img-name .name-design {
@@ -46,26 +51,72 @@
 
 .img-name .arrows {
     display: inline-flex;
-    position: relative;
     margin-left: auto;
 }
 
 .img-name .arrows .arrow-left {
-    font-size: 50px;
+    font-size: 24px;
     color: #dee1e6;
+    background: white;
+    border-radius: 100%;
+    border: 2px solid #eff3f8;
+    padding: 9px;
+    margin-right: 18px;
+    position: relative;
 }
 
 .arrow-left::after {
     content: "";
-    background: rgb(23, 23, 23);
+    background: #e7e7e7;
     position: absolute;
-    height: 33px;
+    height: 28px;
     width: 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    left: 53px;
+    bottom: 6px;
 }
 
 .img-name .arrows .arrow-right {
-    font-size: 50px;
     color: #2500f9;
+    font-size: 24px;
+    background: #dee1e6;
+    border-radius: 100%;
+    border: none;
+    padding: 9px;
 }
+
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .testimonial-background {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .testimonial-box {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .testimonial-background {
+        display: block;
+    }
+    .testimonial-background .main-img {
+        width: 100%;
+    }
+    .testimonial-box h3 {
+        margin-top: 26px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  }

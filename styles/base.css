@@ -62,3 +62,64 @@ span {
     color: var(--primary-gray-color);
     font-weight: var(--paragraph-font-weight);
 }
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-family: var(--base-font);
+        font-size: var(--main-heading-h1);
+        color: var(--primary-navy-color);
+        font-weight: var(--heading-font-weight);
+    }
+    
+    h3 {
+        font-family: var(--base-font);
+        font-size: 24px;
+        color: var(--primary-navy-color);
+        font-weight: var(--heading-font-weight);
+        line-height: 2rem;
+    }
+    
+    h4 {
+        font-family: var(--base-font);
+        font-size: 18px;
+        font-weight: var(--heading-font-weight);
+    }
+    
+    p {
+        font-family: var(--base-font);
+        font-size: 14px;
+        color: var(--primary-gray-color);
+        font-weight: var(--paragraph-font-weight);
+    }
+    
+    span {
+        font-family: var(--base-font);
+        font-size: 14px;
+        color: var(--primary-gray-color);
+        font-weight: var(--paragraph-font-weight);
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    h1 {
+        font-family: var(--base-font);
+        font-size: 16px;
+        color: var(--primary-navy-color);
+        font-weight: var(--heading-font-weight);
+    }
+  }
